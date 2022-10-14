@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <unistd.h>
-#include <stderr.h>
 
 /**
  * main - prints exactly what we were told to write
