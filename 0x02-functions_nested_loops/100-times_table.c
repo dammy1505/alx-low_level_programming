@@ -25,25 +25,32 @@ void print_times_table(int n)
 			{
 				_putchar('0');
 			}
-			else if (column < 10)
+			else if (product < 10)
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
+				_putchar(' ');
 				_putchar(ones + '0');
 			}
-			else
+			else if (product >= 10 && product < 100)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(tens + '0');
+				_putchar(' ');
+				_putchar((tens % 10) + '0');
+				_putchar(ones + '0');
+			}
+			else if (product > 99 && product < 1000)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(product / 100 + '0');
+				_putchar((tens % 10) + '0');
 				_putchar(ones + '0');
 			}
 		}
+			_putchar('\n');
 		}
-	}
-	else
-	{
-		printf("%c", ' ');
 	}
 }
