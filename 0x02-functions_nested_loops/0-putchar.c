@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- *main-to print statement
+ *main - to print statement
  *followed by a new line
  *Return: 0 if true else anything else
  */
