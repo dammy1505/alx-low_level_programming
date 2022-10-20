@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers - this is main function that prints all numbers to 9
+ * print_most_numbers - this is main function that prints all numbers
+ * to 9
  * except numbers 2 and 4 starting from 0
  * Return: void so returns nothing
  * @n: the integer to be analysed
