@@ -5,17 +5,16 @@
  * to 9
  * except numbers 2 and 4 starting from 0
  * Return: void so returns nothing
- * @n: the integer to be analysed
  */
 void print_most_numbers(void)
 {
-	int n = 0;
+	int e = 0;
 
-	for (n = 0; n <= 9; n++)
+	for (e = '0'; e <= '9'; e++)
 	{
-		if ((n != 2) && (n != 4))
+		if ((e != '2') && (e != '4'))
 		{
-			_putchar(n);
+			_putchar(e);
 		}
 	}
 	_putchar('\n');
