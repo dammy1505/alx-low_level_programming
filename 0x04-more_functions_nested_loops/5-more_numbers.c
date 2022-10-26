@@ -9,12 +9,10 @@
 
 void more_numbers(void)
 {
-	int repeat = 0;
+	int repeat, number;
 
 	for (repeat = 0; repeat < 10; repeat++)
 	{
-		int number = 0;
-
 		for (number = 0; number < 15; number++)
 		{
 			if (number >= 10)
